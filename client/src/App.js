@@ -15,6 +15,8 @@ import { Provider } from "react-redux";
 import Success from "./pages/Success";
 import OrderHistory from "./pages/OrderHistory";
 
+// https://agile-crag-50151.herokuapp.com/ | https://git.heroku.com/agile-crag-50151.git heroku
+
 const client = new ApolloClient({
   request: (operation) => {
     const token = localStorage.getItem('id_token')
